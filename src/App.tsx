@@ -246,7 +246,7 @@ const dataAviMonitoring = {
 
 function App() {
   return (
-    <Router basename="/portfolio-react">
+    <Router basename="/">
       <ScrollToTop />
       <Routes>
         <Route
