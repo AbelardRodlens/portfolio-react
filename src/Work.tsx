@@ -18,7 +18,7 @@ export default function Work() {
             card_description="Platforme communautaire ayant pour sujet les jeux vidéo."
             card_background={gameverse_background}
             card_visualizer=""
-            card_github_link="https://github.com/AbelardRodlens/BUT_INFO/tree/master/Stage"
+            card_github_link="https://github.com/AbelardRodlens/BUT_INFO/tree/master/Sae%20BUT3/rebirth"
           />
         </Link>
       </div>
