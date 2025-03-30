@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d docs"
+    "deploy": "gh-pages -d docs --repo=https://github.com/AbelardRodlens/portfolio-react.git"
   },
   "dependencies": {
     "react": "^18.3.1",
