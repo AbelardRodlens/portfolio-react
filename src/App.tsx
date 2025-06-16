@@ -32,6 +32,23 @@ const dataGameVerse = {
         fonctionnalités de recommandation et d'échange
       </span>{" "}
       autour des jeux vidéo.
+      <br/>
+      Durant ce projet, je me suis principalement occupé de <span className="highlight-text">la conception et du développement de l’API REST</span>, ainsi que de la base de données.
+      Pour la base de données, nous avons opté pour MongoDB, connue pour sa <span className="highlight-text">flexibilité et sa scalabilité</span>.
+      Couplée à Redis, cela nous a permis de mettre en place un <span className="highlight-text">système de cache efficace</span>, réduisant la latence et améliorant les performances de l’application.
+
+      Concernant l’API, nous avons choisi une authentification basée sur <span className="highlight-text">JWT</span>, gérée entièrement côté navigateur, donc sans état côté serveur — ce qui était en totale adéquation avec le modèle REST — afin de sécuriser les routes.
+      Pour renforcer la sécurité de l’API, nous avons imposé l’utilisation du <span className="highlight-text">protocole HTTPS</span>, afin de chiffrer les données échangées.
+      Une validation des entrées côté serveur a bien évidemment été mise en place, pour éviter toute tentative d’injection.
+
+      D’autres mesures de sécurité ont été prises, comme des <span className="highlight-text">paramètres CORS stricts</span> et l’ajout d’un <span className="highlight-text">token CSRF</span> pour se protéger des attaques du même nom, notamment sur les formulaires contenant des actions sensibles.
+      Nous avons également mis en place des <span className="highlight-text">tests d’intégration et de validation des endpoints</span>, afin de s’assurer du bon fonctionnement global de l’API.
+      Enfin, nous avons terminé avec une série de <span className="highlight-text">tests de performance via Postman</span> : load test, stress test, spike test et soak test, dans le but de mesurer les capacités de l’API et son comportement dans des cas spécifiques.
+
+      Pour ce qui est de la collaboration, <span className="highlight-text">l’équipe communiquait via Discord</span>. À chaque session, on faisait un petit point pour savoir sur quoi chacun travaillait, et ce qu’il restait à faire dans la semaine pour rester dans les délais.
+      <span className="highlight-text">Le partage de code se faisait via GitHub</span>, chaque membre ayant sa propre <span className="highlight-text">branche</span> avec sa version du projet. Les différentes versions (issues des fusions de branches) étaient regroupées dans une branche dédiée.
+
+      Je suis plutôt satisfait du travail accompli avec mon équipe. Par rapport aux autres SAE, je trouve qu’on a su mieux gérer les imprévus et le manque de temps, en priorisant certaines tâches.
     </p>
   ),
 
@@ -43,7 +60,7 @@ const dataGameVerse = {
     "Database Design",
     "User Session Security",
   ],
-  tools: ["Express JS", "Jest", "MongoDB"],
+  tools: ["Express JS", "Jest", "MongoDB", "Redis", "Postman"],
   teamate: {
     Michael: {
       full_name: "Atici Michael",
@@ -226,6 +243,16 @@ const dataAviMonitoring = {
       <span className="highlight-text">conception d’un tableau de bord</span>{" "}
       intuitif. L’outil intègre un système de gestion des rôles pour sécuriser
       l’accès, et des fonctionnalités de gestion utilisateur.
+
+      Durant ce stage, j’ai été amené à travailler sur un projet en équipe seul.
+      Je me suis donc retrouvé face à de nombreux obstacles, d’abord parce que je n’étais pas à l’aise avec PHP, ensuite à cause du manque de temps pour mener à bien le projet avec le niveau que j’avais à ce moment-là.
+      Malgré tout, je n’en retiens que du positif. Cela m’a permis de revoir des notions que je n’avais pas forcément comprises, ou même jamais vues.
+      J’ai pu consolider mes compétences en front-end et back-end et combler les lacunes que j’avais en SQL.
+      Ce stage m’a aussi donné l’occasion de revoir les bases de la sécurité web, notamment à travers la gestion des failles XSS et SQL Injection.
+      J’ai gagné en autonomie, ce qui m’a beaucoup apporté.
+
+      Avec le recul, si j’avais l’opportunité de recommencer, j’utiliserais des outils de planification pour mieux m’organiser, et j’aurais sous-traité le front-end avec Bootstrap afin de gagner du temps.
+
     </p>
   ),
 
