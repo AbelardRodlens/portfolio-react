@@ -9,7 +9,8 @@ export default defineConfig({
     allowedHosts: []
   },
 
-  
+  base: '/',
+
   build: {
     outDir:'./docs'
   },
