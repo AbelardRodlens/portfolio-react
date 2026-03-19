@@ -11,8 +11,8 @@ jobs:
 
     steps:
       - name: Disable Jekyll
-        run: touch docs/.nojekyll
-        
+        run: touch public/.nojekyll
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
