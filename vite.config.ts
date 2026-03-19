@@ -9,7 +9,7 @@ export default defineConfig({
     allowedHosts: []
   },
 
-  base: '/portfolio-react/',
+  base: '/',
 
   build: {
     outDir:'./docs'
