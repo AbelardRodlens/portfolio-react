@@ -18,12 +18,7 @@ jobs:
           git config --global user.email "abelard.rodlens@gmail.com"
           git config --global user.name "AbelardRodlens"
 
-      - name: Build project
-        run: npm run build
-
-      - name: Disable Jekyll
-        run: touch docs/.nojekyll
-
+      
       - name: Deploy to Github Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

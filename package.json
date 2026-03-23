@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && touch docs/.nojekyll",
     "deploy": "gh-pages -d docs --cname abelard.rodlens.fr"
   },
   "dependencies": {
