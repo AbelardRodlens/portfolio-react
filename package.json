@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d docs --cname abelard.rodlens.fr --dotfiles"
+    "deploy": "gh-pages -d docs --cname abelard.rodlens.fr --dotfiles --no-history"
   },
   "dependencies": {
     "react": "^18.3.1",
